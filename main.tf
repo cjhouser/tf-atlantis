@@ -15,3 +15,7 @@ terraform {
         }
     }
 }
+
+resource "random_pet" "pet" {
+    prefix = "house-"
+}
