@@ -1,0 +1,6 @@
+version: 3
+projects:
+- name: accounts
+  dir: infrastructure/project1
+  autoplan:
+    enabled: true
